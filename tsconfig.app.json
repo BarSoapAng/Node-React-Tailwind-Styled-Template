@@ -16,6 +16,11 @@
     "noUncheckedSideEffectImports": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["src/assets/*"]
+    },
+    "ignoreDeprecations": "6.0",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "moduleDetection": "force",
